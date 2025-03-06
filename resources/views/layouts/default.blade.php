@@ -12,7 +12,8 @@
     <title>Homco - @yield('title')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-[#111110] text-white font-poppins">
+<body class=" text-white font-poppins">
+    {{-- bg-[#111110] --}}
     <x-theme.header />
     <main>
         @yield('content')

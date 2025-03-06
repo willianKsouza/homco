@@ -1,4 +1,4 @@
-<header x-data="{ open: false }" class="bg-zinc-400 border-b border-white/50 relative">
+<header x-data="{ open: false }" class="bg-zinc-400 shadow-sm relative">
     <x-container>
         <div class="flex justify-between items-center max-lg:py-4 font-poppins">
             <div>
@@ -6,16 +6,16 @@
             </div>
             <nav class="hidden lg:block">
                 <ul class="flex items-center gap-4">
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-lg hover:bg-gray-700">
+                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
                         <a class="uppercase" href="">home</a>
                     </li>
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-lg hover:bg-gray-700">
+                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
                         <a class="uppercase" href="">about us</a>
                     </li>
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-lg hover:bg-gray-700">
+                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
                         <a class="uppercase" href="">our services</a>
                     </li>
-                    <li class="relative group flex items-center md:px-2 h-[100px] font-semibold text-lg hover:bg-gray-700">
+                    <li class="relative group flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
                         <a class="flex gap-1 items-center uppercase" href="">our projects 
                             <svg
                                 class="group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -24,7 +24,7 @@
                                 <path d="m6 9 6 6 6-6" />
                             </svg>
                         </a>
-                        <ul class="absolute left-0 right-0 top-24 mt-1 bg-zinc-400  text-white shadow-lg hidden group-hover:block w-full">
+                        <ul class="absolute left-0 right-0 top-24 mt-1 bg-zinc-400  text-white shadow-sm hidden group-hover:block w-full">
                             <li>
                                 <a href="" class="block px-4 py-2 hover:bg-gray-700 uppercase">Project 1</a>
                             </li>
@@ -45,10 +45,10 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-lg hover:bg-gray-700">
+                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
                         <a class="uppercase" href="">portifolio</a>
                     </li>
-                    <li class="relative group flex items-center md:px-2 h-[100px] font-semibold text-lg hover:bg-gray-700">
+                    <li class="relative group flex items-center md:px-2 h-[100px] font-semibold text-base  hover:bg-gray-700">
                         <a class="flex gap-1 items-center uppercase" href="">pages
                             <svg
                             class="group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
