@@ -32,7 +32,7 @@
                     <a href="">our services</a>
                 </li>
                 <li @click="open === 1 ? open = false : open = 1" class="py-4 font-semibold text-lg px-4 uppercase">
-                    <a class="flex gap-1 items-center" href="#">our projects 
+                    <a class="flex gap-1 items-center text-nowrap" href="#">our projects 
                         <svg
                             :class="open === 1 ? 'rotate-180' : ''" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
