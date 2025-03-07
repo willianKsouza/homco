@@ -288,8 +288,7 @@
           <div class="flex flex-col sm:items-start gap-2 bg-zinc-500 px-16 pt-28 pb-8 -mb-50 ">
             <p class="max-w-7xl text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-15 sm:leading-18 lg:leading-25 ">LETS CHANGE YOUR OWN HOME INTERIOR DESIGN NOW</p>
             <a class="inline-block max-w-[160px] px-8 py-4 bg-zinc-900 text-nowrap" href="#">Our Project</a>
-            
-        </div>
+          </div>
         </div>
       </x-container>
     </section>

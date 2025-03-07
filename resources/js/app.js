@@ -7,7 +7,7 @@ new Splide( '.splide',{
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 5,
+    autoWidth: true,
     autoScroll: {
       speed: 1,
     },

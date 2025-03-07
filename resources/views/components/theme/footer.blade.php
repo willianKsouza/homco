@@ -1,7 +1,7 @@
 <footer class="bg-zinc-900 -z-20">
     <x-container>
-        <div class="grid sm:grid-cols-2 gap-8 text-zinc-300">
-            <div class="flex flex-col gap-4">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-12 gap-y-6 mb-10">
+            <div class="flex flex-col gap-4 lg:col-span-6">
                 <h1 class="font-black text-2xl">INFORMATION</h1>
                 <p class="text-lg text-zinc-400">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Ut elit tellus, luctus nec<br> ullamcorper mattis, pulvinar dapibus leo.</p>
                 <ul class="flex gap-4">
@@ -19,7 +19,7 @@
                     </li>
                   </ul>
             </div>
-            <div class="grid md:grid-cols-2 gap-4">
+            <div class="lg:col-span-3 sm:max-lg:justify-self-end">
                 <nav>
                     <h1 class="font-black text-2xl">NAVIGATION</h1>
                     <ul class="space-y-4 mt-2">
@@ -61,6 +61,8 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="lg:col-span-3">
                 <div class="space-y-4">
                     <h1 class="font-black text-2xl">CONTACT US</h1>
                     <ul>
@@ -73,27 +75,25 @@
                             <span class="text-lg">Hello@Homco.com</span>
                         </li>
                     </ul>
+                    <div>
                         <form class="flex flex-col items-start gap-4">
                             <input class="max-w-full bg-zinc-600 py-6 px-4" type="text" placeholder="Email Address" class="bg-zinc-800 text-zinc-300">
                             <button class="bg-zinc-500 text-zinc-300 py-4 px-8 ">SUBSCRIBE</button>
                         </form>
+                    </div>
                 </div>
             </div>
-            <div class="md:col-span-2 border-t">
-                <x-container>
-                    <div class="grid md:grid-cols-2 justify-items-center md:justify-items-normal py-8">
-                        <h1 class="font-semibold text-xs md:text-lg uppercase tracking-wider">Allright Reserved - Homco Interior</h1>
-                        <ul class="flex gap-8 md:gap-12 justify-self-auto md:justify-self-end">
-                            <li class="font-semibold text-xs md:text-lg uppercase tracking-wider">DIsclaimer</li>
-                            <li class="font-semibold text-xs md:text-lg uppercase tracking-wider text-nowrap">Privacy Policy
-                            </li>
-                            <li class="font-semibold text-xs md:text-lg uppercase tracking-wider text-nowrap">
-                                Term Of Use
-                            </li>
-                        </ul>
-                    </div>
-                </x-container>
-            </div>
+        </div>
+        <div class="flex justify-center lg:justify-between gap-4 flex-wrap py-6 border-t">
+            <h1 class="font-semibold text-xs md:text-lg uppercase tracking-wider">Allright Reserved - Homco Interior</h1>
+            <ul class="gap-8 md:gap-12 flex">
+                <li class="font-semibold text-xs md:text-lg uppercase tracking-wider">DIsclaimer</li>
+                <li class="font-semibold text-xs md:text-lg uppercase tracking-wider text-nowrap">Privacy Policy
+                </li>
+                <li class="font-semibold text-xs md:text-lg uppercase tracking-wider text-nowrap">
+                    Term Of Use
+                </li>
+            </ul>
         </div>
     </x-container>
 </footer>
