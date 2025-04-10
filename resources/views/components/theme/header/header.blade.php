@@ -6,16 +6,16 @@
             </div>
             <nav class="hidden lg:block">
                 <ul class="flex items-center gap-4">
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
-                        <a class="uppercase" href="">home</a>
+                    <li class="flex items-center font-semibold text-base hover:bg-gray-700">
+                        <a class="uppercase block py-10 px-4" href="{{ Route('home')}}">home</a>
                     </li>
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
-                        <a class="uppercase" href="">about us</a>
+                    <li class="flex items-center font-semibold text-base hover:bg-gray-700">
+                        <a class="uppercase block py-10 px-2" href="{{ Route('about-us')}}">about us</a>
                     </li>
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
-                        <a class="uppercase" href="">our services</a>
+                    <li class="flex items-center  font-semibold text-base hover:bg-gray-700">
+                        <a class="uppercase block py-10 px-2" href="">our services</a>
                     </li>
-                    <li class="relative group flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
+                    <li class="relative group flex items-center  font-semibold text-base hover:bg-gray-700">
                         <a class="flex gap-1 items-center uppercase" href="">our projects 
                             <svg
                                 class="group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -45,10 +45,10 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="flex items-center md:px-2 h-[100px] font-semibold text-base hover:bg-gray-700">
-                        <a class="uppercase" href="">portifolio</a>
+                    <li class="flex items-center md:px-2  font-semibold text-base hover:bg-gray-700">
+                        <a class="uppercase block py-10 px-2" href="">portifolio</a>
                     </li>
-                    <li class="relative group flex items-center md:px-2 h-[100px] font-semibold text-base  hover:bg-gray-700">
+                    <li class="relative group flex items-center  font-semibold text-base  hover:bg-gray-700">
                         <a class="flex gap-1 items-center uppercase" href="">pages
                             <svg
                             class="group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

@@ -8,7 +8,7 @@
                     <h1 class="text-sm font-semibold text-zinc-700">WELCOME TO HOMCO</h1>
                     <p class="text-5xl sm:text-7xl font-bold texte-center leading-15 sm:leading-20 lg:leading-25 max-w-xl">BUILD YOUR ELEGAN DREAM HOME INTERIOR</p>
                     <div>
-                      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                     <a class="inline-block max-w-[160px] px-8 py-4 bg-zinc-500 text-nowrap" href="#">Our Project</a>
                 </div>
